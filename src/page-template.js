@@ -1,4 +1,4 @@
-const generatePage = (name, role, id, email, officeNumber, github, school) => {
+const generatePage = (name, role, id, email, office, github, school) => {
   return `
   <!DOCTYPE html>
 <html lang="en">
@@ -25,7 +25,7 @@ const generatePage = (name, role, id, email, officeNumber, github, school) => {
             <ul class="list-group w-90 mx-auto">
               <li class="list-group-item">ID: ${id}</li>
               <li class="list-group-item">Email: <a href="mailto:${email}">${email}</a></li>
-              <li class="list-group-item">Office number: ${officeNumber}</li>
+              <li class="list-group-item">Office number: ${office}</li>
             </ul>
           </div>
         </div>
