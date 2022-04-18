@@ -4,6 +4,7 @@ const fs = require("fs");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
+const generatePage = require("./src/page-template");
 
 const addManager = () => {
   return inquirer.prompt([
@@ -176,5 +177,6 @@ addManager()
   })
   .then(addEmployee)
   .then((employeeArray) => {
-    console.log(employeeArray);
+    console.log(generatePage(employeeArray));
+    return generatePage(employeeArray);
   });

@@ -1,17 +1,53 @@
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for my team members and their information
-THEN an HTML file is generated that displays a nicely formatted team roster based on user input
-WHEN I click on an email address in the HTML
-THEN my default email program opens and populates the TO field of the email with the address
-WHEN I click on the GitHub username
-THEN that GitHub profile opens in a new tab
-WHEN I start the application
-THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
-WHEN I enter the team manager’s name, employee ID, email address, and office number
-THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
-WHEN I select the engineer option
-THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
-WHEN I select the intern option
-THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
-WHEN I decide to finish building my team
-THEN I exit the application, and the HTML is generated
+  <div id="top"></div>
+
+![license-badge]
+
+  <h1 align="center">Team Contact Manager</h1>
+  
+  <!-- TABLE OF CONTENTS -->
+  <details>
+    <summary>Table of Contents</summary>
+    <ul>
+      <li><a href="#description">Description</a></li>
+      <li><a href="#installation">Installation</a></li>
+      <li><a href="#usage">Usage</a></li>
+      <li><a href="#contributing">Contributing</a></li>
+      <li><a href="#tests">Tests</a></li>
+      <li><a href="#license">License</a></li>
+      <li><a href="#questions">Questions</a></li>
+    </ul>
+  </details>
+
+  </br>
+  
+  ## Description
+  A command line application that generates a webpage to allow for quick access of all employees' contact information.
+  
+  ## Installation
+  Clone the repository, open folder in terminal, run npm install, node index.js, then, answer prompts.
+
+## Usage
+
+This application can be used for teams of all sizes to get all contact information at a glance.
+
+## Contributing
+
+Fork the repository, create an awesome feature, then, create a pull request with a descriptive comment.
+
+## Tests
+
+Tests were created in Jest. Run "npm test" to view tests.
+
+## License
+
+Licensed under the MIT License.
+
+## Questions
+
+Email: [mannysg88@gmail.com](mailto:mannysg88@gmail.com)
+
+Github: [https://github.com/mannygarcia98](https://github.com/mannygarcia98)
+
+  <!-- MARKDOWN LINKS & IMAGES -->
+
+[license-badge]: https://img.shields.io/badge/LICENSE-MIT-brightgreen?style=plastic
